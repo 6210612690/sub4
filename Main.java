@@ -13,5 +13,6 @@ public class Main {
         System.out.println("Running: " + Problem.getRoutineName(command));
         System.out.print("Enter integers: ");
         Problem.run(command, Util.getData());
+        
     }
 }
